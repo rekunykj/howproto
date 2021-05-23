@@ -1,0 +1,226 @@
+<!--Filename:    Contact_Us.html-->
+<!--Date:        06/06/2020-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.validate.min.js"></script>
+    <script src="scripts/pattern.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Hammer of Wrath - Holy</title>
+    <link rel="stylesheet" href="styles/global_styles.css">
+    <script src="https://kit.fontawesome.com/21e9bd3407.js" crossorigin="anonymous"></script>
+    <script src="scripts/form-validation.js"></script>
+    <script src="scripts/universal_scripts.js"></script>
+</head>
+<body>
+<header>
+    <img id="header" src="images/Twitter_Banner2.png" class="img-fluid" alt="HOW_Logo">
+    <a id="top"></a>
+</header>
+<nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="Main.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="Development_Template.html"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Development_Template.html">Talents</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Gear.html">Gear</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Development_Template.html">Raids</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Development_Template.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Mythic+
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Development_Template.html">Gear</a>
+                    <a class="dropdown-item" href="Development_Template.html">Talents</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Development_Template.html">Strategy</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Development_Template.html">About us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://twitter.com/paladindiscord"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class ="nav-link" href="https://discord.com/invite/hammerofwrath"><i class="fab fa-discord"></i></a>
+            </li>
+
+            <li class="nav-item">
+                <a class ="nav-link" href="https://www.youtube.com/channel/UCTEOx5x2hOPe-GkDLqMvUdA"><i class="fab fa-youtube"></i></i></a>
+            </li>
+
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <!--           TODO Need to change this back to a proper submit button eventually-->
+            <input id="searchField" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="btnSearch" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div id="firstBox" class="container">
+    <div class="jumbotron">
+        <h1>Contact us!</h1>
+    </div>
+    <main role="main">
+        <div id="main-content" class="row">
+            <div class="col-sm-12">
+                <h1>Ways to contact us!</h1>
+                <p>The best way to contact us is in the links below on social media. If you have questions the discord has a questions channel where there are
+                    always helpful players that can answer specific questions if you couldn't find the answer here or in the FAQ (Frequently Asked Questions) on the discord!</p>
+                <ul>
+                    <li><a href="https://twitter.com/paladindiscord"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://discord.com/invite/hammerofwrath"><i class="fab fa-discord"></i> Discord</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCTEOx5x2hOPe-GkDLqMvUdA"><i class="fab fa-youtube"></i></i> Youtube</a></li>
+                </ul>
+
+                <h1>Log analysis!</h1>
+                <p>You can also submit a Warcraftlogs log to be analyzed by us. We sometimes get quite a few of these, so it may take some time for us to get back to you.
+                    However feel free to send it in and someone will email you with feedback on your performance and ways to improve!
+                    This service is completely free and done by players looking to help in their spare time so there is no ETA for when someone will get back to you.</p>
+
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Log Analysis form</h3>
+                        <p>* indicates required field</p>
+                        <br/>
+                        <form id="logForm" class="form-horizontal" action="#" role="form">
+                                                <input id="ID" name="ID" type="hidden" value="0" aria-hidden="true" />
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="submissionDate">Date submitted</label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i></span>
+                                        <input class="form-control" id="submissionDate" name="SubmissionDate" type="date" readonly/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="logLink">Log link* <i class="fas fa-info-circle clickable" id="logIcon"></i></label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <input class="form-control" id="logLink" name="logLink" type="text" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="armoryLink">Armory link* <i class="fas fa-info-circle clickable" id="armoryIcon"></i></label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <input class="form-control" id="armoryLink" name="armoryLink" type="text" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="control-label col-sm-3 col-lg-2">Email*</label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon " aria-hidden="true"></i></span>
+                                        <input class="form-control" id="email" name="email" type="email" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="Region">Game Region</label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon " aria-hidden="true"></i></span>
+                                        <select class="form-control" id="Region" name="Region">
+                                            <option value="NA">North America</option>
+                                            <option value="EU">Europe</option>
+                                            <option value="CN">China</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="classSpec">Specialization</label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon " aria-hidden="true"></i></span>
+                                        <select class="form-control" id="classSpec" name="Region">
+                                            <option value="H">Holy</option>
+                                            <option value="R">Retribution</option>
+                                            <option value="P">Protection</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3 col-lg-2" for="extraNotes">Notes</label>
+                                <div class="col-sm-9 col-lg-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon " aria-hidden="true"></i></span>
+                                        <textarea class="form-control" id="extraNotes" name="Notes"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- TODO 15: align submit button with form elements -->
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-9 col-lg-offset-2 col-lg-8">
+                                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit for review" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <img id="formImg" src="images/d81fd9ccde2a7cfd22ecfad6a0579aeb.png" class="img-fluid" alt="Paladin_form_art"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="panel-footer" role="contentinfo">
+        <a href="#top">Return to top</a>
+        <br/>
+        <p>&copy;Hammer of Wrath
+            - <a href="https://twitter.com/paladindiscord"><i class="fab fa-twitter"></i> Twitter</a>
+            - <a href="https://discord.com/invite/hammerofwrath"><i class="fab fa-discord"></i> Discord</a>
+            - <a href="https://www.youtube.com/channel/UCTEOx5x2hOPe-GkDLqMvUdA"><i class="fab fa-youtube"></i></i> Youtube</a>
+            - <a href="Easter_Egg.html"><i class="fas fa-egg"></i></a>
+
+        </p>
+    </footer>
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/*Filename:    global_styles.css*/
+/*Date:        06/06/2020*/
+
+
+.carousel-caption {
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+   text-align: center;
+}
+
+body {
+    background: url("../images/Discord_Splash_Page_1920x1080.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#armoryIcon, #logIcon {
+    cursor:pointer;
+    outline:none;
+}
+
+#gearImage {
+    padding: 10px;
+}
+
+#firstBox {
+    border-top: 1px solid black;
+    background-color: lightgrey;
+}
+
+#main-content {
+    background-color: lightgrey;
+}
+
+footer {
+    background-color: lightpink;
+    opacity: 80%;
+}
+
+#carousel {
+    opacity: 100%;
+}
+
+.carousel-indicators {
+    /*background-color: lightpink;*/
+}
+
+.carousel {
+    border: 1px solid black;
+}
+h1, .carousel-caption {
+
+    font-family: Friz, serif ;
+    color: lightpink;
+    text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
+}
+
+h2, h3, h4, h5 {
+    font-family: Friz, serif ;
+    color: lightpink;
+    text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    color: lightpink;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#formImg {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photoPlug {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8pt;
+}
+
+h5 {
+    font-size: 34pt;
+    font-weight: bold;
+}
+
+#statPriority {
+    width: 100%;
+    background-color: lightpink;
+    opacity: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+input.error {
+    background-color: tomato;
+}
+
+@media only screen and (min-width: 1200px) {
+    .form-group {
+        width: 850px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    h5 {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    h1:first-of-type {
+        font-size: 24pt;
+    }
+    p {
+        font-size: 8pt;
+    }
+
+    li {
+        font-size: 8pt;
+    }
+
+}
